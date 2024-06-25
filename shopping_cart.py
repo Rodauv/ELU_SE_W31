@@ -1,5 +1,6 @@
 """Module summing and displaying shopping chart items and total values"""
 
+
 def calculatetotal(cart):
     """Function to calculate total"""
     total = 0
@@ -7,9 +8,11 @@ def calculatetotal(cart):
         total += element['price']
     return total
 
+
 def displaytotal(total):
     """Function to print total values"""
     print("Total price: " + str(total))
+
 
 CART = [
     {'name': 'Item A', 'price': 10.99},
